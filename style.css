@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.container{
+    display: flex;
+    text-align: center;
+    max-width: 1000px; 
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    margin: auto;
+    margin-top: 50px;
+    flex-direction: column;
+}
+h1{
+    font-size: 48px;
+    padding-top: 25px;
+}
+.input{
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+#tarefas{
+    margin-right: 16px;
+    font-size: 24px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.botao{
+    font-size: 24px;
+    padding: 5px 16px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.botao:hover{
+    background-color: rgb(63, 63, 243);
+}
+
+.lista{
+    margin: auto;
+    margin-top: 15px;
+    width: 70%;
+}
+
+ul{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
